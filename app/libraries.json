@@ -1,0 +1,56 @@
+[
+	{
+		"artifactId": "appcompat",
+		"groupId": "androidx.appcompat",
+		"scope": "compile",
+		"versionName": "1.3.1"
+	},
+	{
+		"artifactId": "material",
+		"groupId": "com.google.android.material",
+		"scope": "compile",
+		"versionName": "1.5.0"
+	},
+	{
+		"artifactId": "constraintlayout",
+		"groupId": "androidx.constraintlayout",
+		"scope": "compile",
+		"versionName": "2.1.0"
+	},
+	{
+		"artifactId": "coordinatorlayout",
+		"groupId": "androidx.coordinatorlayout",
+		"scope": "compile",
+		"versionName": "1.1.0"
+	},
+	{
+	"artifactId": "cardview",
+	"excludes": [],
+	"groupId": "androidx.cardview",
+	"versionName": "1.0.0"
+	},
+	{
+	"artifactId": "glide",
+	"excludes": [],
+	"groupId": "com.github.bumptech.glide",
+	"versionName": "4.13.0"
+	},
+	{
+	"artifactId": "palette",
+	"excludes": [],
+	"groupId": "androidx.palette",
+	"versionName": "1.0.0"
+	},
+	{
+	"artifactId": "dexter",
+	"excludes": [],
+	"groupId": "com.karumi",
+	"versionName": "6.2.3"
+	},
+	{
+	"artifactId": "media",
+	"excludes": [],
+	"groupId": "androidx.media",
+	"versionName": "1.1.0"
+	}
+]

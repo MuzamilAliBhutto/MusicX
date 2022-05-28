@@ -1,0 +1,87 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	app:cardElevation="10dp"
+	app:cardCornerRadius="10dp"
+	>
+<RelativeLayout
+	android:background="@drawable/player_bg"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<RelativeLayout
+        android:id="@+id/about_top_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/gradient_bg" >
+
+        <ImageView
+            android:id="@+id/about_btn_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/chavan" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/about_btn_back"
+            android:gravity="center"
+            android:text="About Developer"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+</RelativeLayout>
+	<ImageView
+	android:layout_height="250dp"
+	android:layout_width="250dp"
+	android:id="@+id/about_img"
+	android:layout_centerHorizontal="true"
+	android:layout_marginTop="50dp"
+	android:scaleType="centerCrop"
+	android:src="@drawable/music"
+/>
+	
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/about_name"
+		android:text="@string/app_name"
+		android:textStyle="bold"
+		android:textSize="24sp"
+		android:layout_below="@id/about_img"
+		android:layout_marginTop="20dp"
+		android:textColor="@color/white"
+		android:gravity="center"/>
+		<TextView
+			android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Hi! My self Muzamil Ali Bhutto.I am the developer of this app.I am available to hire.Thanks!"
+		android:textStyle="bold"
+		android:textSize="18sp"
+		android:layout_below="@id/about_name"
+		android:layout_marginTop="20dp"
+		android:textColor="@color/white"
+		android:gravity="center"
+		android:id="@+id/about_msg"/>
+		<TextView
+			android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="bhuttomuzamilali2@gmail.com"
+		android:textStyle="bold"
+		android:textSize="20sp"
+		android:layout_below="@id/about_msg"
+		android:layout_marginTop="20dp"
+		android:autoLink="email"
+		android:textColor="@color/white"
+		android:gravity="center"/>
+		
+</RelativeLayout>
+	
+
+</androidx.cardview.widget.CardView>

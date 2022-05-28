@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	android:background="@drawable/player_bg">
+	<ImageView
+		android:layout_height="300dp"
+		android:layout_width="match_parent"
+		android:id="@+id/activity_album_img"
+		android:src="@drawable/gally"
+		android:scaleType="centerCrop"
+		/>
+<ImageView
+android:layout_height="200dp"
+android:layout_width="match_parent"
+android:id="@+id/activity_album_img2"
+android:layout_marginTop="100dp"
+/>
+<TextView
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent"
+	android:id="@+id/activity_album_txt"
+	android:layout_below="@id/activity_album_img2"
+	android:textColor="@color/white"
+	android:gravity="center"
+	android:text="Album name"
+	android:layout_margin="10dp"
+	android:textStyle="bold"
+	android:textSize="20sp"/>
+	
+	
+<androidx.recyclerview.widget.RecyclerView
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:id="@+id/recyclerview3"
+	android:layout_below="@id/activity_album_txt"/>
+</RelativeLayout>
